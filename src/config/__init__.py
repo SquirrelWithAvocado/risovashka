@@ -2,7 +2,7 @@ from .constants import (
     Color, 
     SCREEN_SIZE, 
     SCENE_SIZE, 
-    VIDECAM_SIZE, 
+    VIDEOCAM_SIZE, 
     TOOLS_SIZE,
     SCENE_POS,
     VIDEOCAM_POS,

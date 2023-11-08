@@ -4,7 +4,7 @@ from ..config import (
     Color,
     SCREEN_SIZE,
     SCENE_SIZE,
-    VIDECAM_SIZE,
+    VIDEOCAM_SIZE,
     TOOLS_SIZE,
     SCENE_POS,
     VIDEOCAM_POS,
@@ -33,7 +33,7 @@ class App:
         )
         self.videocam_widget = VideoCamWidget(
             self.screen, 
-            VIDECAM_SIZE, 
+            VIDEOCAM_SIZE, 
             VIDEOCAM_POS, 
             self.mouse_handler
         )
@@ -66,3 +66,5 @@ class App:
             self.tools_widget.update()
 
             pg.display.update()
+        
+        self.videocam_widget.release()

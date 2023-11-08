@@ -32,3 +32,6 @@ class DefaultWidget:
     def update(self):
         self.screen.blit(self.surface, self.position)
         self.click_id = self.mouse_handler.get_click_id()
+
+    def release(self):
+        pass
